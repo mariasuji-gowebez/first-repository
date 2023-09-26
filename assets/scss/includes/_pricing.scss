@@ -1,0 +1,75 @@
+// =======================================pricing section start================================
+// background image
+.pricing-section-bannerbg {
+    background-image: url("/public/images/section\ 1\ \(2\).jpg") !important;
+    position: center;  background-size: 100% 100% ;
+    background-position: center center;
+    width: auto;
+}
+.pricing-bodybg {
+    background-image: url("/public/images/bg.jpg") !important;
+    background-repeat: no-repeat;
+    position: center;  background-size: 100% 100% ;
+    background-position: center center;
+    background-attachment: fixed;
+    width: auto;
+}
+.pricing-offer-section {
+    background-image: url("/public/images/section\ 3.jpg") !important;
+    background-repeat: no-repeat;
+    position: center;  background-size: 100% 100% ;
+    background-position: center center;
+}
+.pricing-secondsection {
+    background-image: url("/public/images/Section\ 2\ \(2\).jpg") !important;
+    background-repeat: repeat;
+    position: center;  background-size: 100% 100% ;
+    background-position: center center;opacity: 0.9;
+}
+// pricing heading
+.pricing-heading {
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.btn-color {
+    background-color: #f30065;
+}
+.text-color-modify {
+    color: #ffbad7b0;
+}
+
+.salon-pricing-heading {
+    color: rgba(255, 255, 255, 0.897);
+}
+.border-bottom-pricing {
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.548);
+}
+.pricing-table-content {
+    color: rgba(255, 255, 255, 0.616);
+}
+.pricing-offer-heading {
+    font-size: 70px;
+}
+.pricingcard {
+    background-color: rgba(0, 0, 0, 0.863);
+}
+.pricingcard-paracolor {
+    color: rgba(255, 255, 255, 0.712);
+}
+.border-bottom-pricingcard {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    img.img-fluid {
+        width: 100%; 
+        height: auto; 
+    }
+}

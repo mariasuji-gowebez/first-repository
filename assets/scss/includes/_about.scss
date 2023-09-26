@@ -1,0 +1,138 @@
+// ================================about page css========================================
+// bannerpage background image
+.bannerabout-background-image {
+    background-image: url("/public/images/section\ 1.jpg") !important;
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center center;
+}
+
+.backgroundcolor-aboutsalon{
+    background-image: url("/public/images/MicrosoftTeams-image\ \(6\)\ \(1\).png") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center center;
+}
+
+.bg-lightwhite{background-color: rgba(255, 255, 255, 0.911);
+}
+
+.bgdouble-coloring{
+    background: linear-gradient(
+        to right,
+       rgba(0, 0, 0, 0.055) 0%,
+       rgba(0, 0, 0, 0.055) 20%,
+        rgba(255, 0, 0, 0.021) 20%,
+        rgba(255, 0, 0, 0.041) 80%,
+        rgba(255, 0, 0, 0.041) 100%,
+    );
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+
+// backgroundimage 
+.backgroundimage-aboutstory {
+    background-image: url("/public/images/section\ 2\ \(3\).jpg") !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center center;
+}
+.text-design{
+    color: rgba(0, 0, 0, 0.836);
+    font-family: "Sulphur Point", sans-serif !important;
+}
+// about our story circle
+.round-circlefix{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  border: 5px solid white;
+}
+.round-circlefix1{
+    height: 145px;
+    width: 145px;
+    border-radius: 50%;
+  border: 1px solid white;
+}
+// positioning in about page
+.positioning-aboutrel1{
+    position: relative;
+}
+.positioning-aboutabs1{
+    position: absolute;
+    bottom: 200px;color: rgba(0, 0, 0, 0.795);
+}
+.positioning-aboutrel2{
+    position: relative;
+}
+.positioning-aboutabs2{
+    position: absolute;
+    right: 20px;
+    bottom: 200px;color: rgba(0, 0, 0, 0.795);
+}
+.positioning-aboutrel{
+    position: relative;
+}
+.positioning-aboutabs{
+    position: absolute;
+    bottom: 10px;color: rgba(0, 0, 0, 0.795);
+}
+// carousel icon change
+.carousel-control-prev-icon {
+    background-image: url(/public/images/free-arrow-left-icon-3099-thumb.png) !important;
+}
+.carousel-control-next-icon {
+    background-image: url(/public/images/free-arrow-right-icon-3098-thumb.png) !important;
+}
+
+// heading font about us
+.about-ourstory{
+    font-size: 85px;
+    letter-spacing: 2px;
+    font-weight: 30px ;
+}
+.para-font2 {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 18px;
+    word-spacing: 1px;
+    color: rgba(0, 0, 0, 0.801);
+    line-height: 2;
+    background-color:  rgba(0, 0, 0, 0.055);
+}
+.textcolor-black{
+    color: rgba(0, 0, 0, 0.801);
+    word-spacing: 0px;
+}
+.para-font3 {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 27px;
+    word-spacing: 1px;letter-spacing: 2px;
+    color:rgba(255, 255, 255, 0.993)
+}
+.fontsize-varying{
+    letter-spacing: 2px;
+    font-size: 55px;
+    font-family: "Sulphur Point", sans-serif !important;
+}
+.fontsize-change{
+    font-family: "Sulphur Point", sans-serif !important;
+}  
+
+//  Default height for the image 
+.img-fluid1 {
+    width: 90%;
+    height: 520px;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .img-fluid1 {
+        height: 800px !important;
+        width:950px !important
+    }
+}

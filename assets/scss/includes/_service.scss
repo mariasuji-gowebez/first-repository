@@ -1,0 +1,99 @@
+.bannerservice-background-image {
+    background-image: url("/public/images/section\ 1\ \(4\).jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center center;
+}
+.service-heading {
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.bgdouble-coloring1 {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.027) 0%,
+        rgba(0, 0, 0, 0.027) 30%,
+        black 30%,
+        black 70%,
+        black 100%
+    );
+    padding: 50px;
+    text-align: center;
+    color: black;
+}
+.para-fontservice {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.801);
+    line-height: 2;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.positining-service-rel {
+    position: relative;
+   
+}
+.bg-textcoloring{
+    background-color:  rgba(0, 0, 0, 0.027);
+}
+.positining-service-ab {
+    position: absolute;
+    right: 520px;
+    top: 400px;
+}
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .positining-service-ab {
+        position: absolute;
+        right: 420px; 
+       
+    }
+}
+
+.bg-service {
+    background-color: rgba(0, 0, 0, 0.925);
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #ffffff00;
+    border: 1px solid #ffffff00;
+}
+.circle-background1 {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: #fd006a;
+    border-radius: 50%;
+}
+.text-rotating {
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    padding-right: 20px;
+    letter-spacing: 15px;
+}
+.background-colorchange-service {
+    background-image: url("/public/images/section\ 2.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    background-position: center center;
+}
+.Our-special-offer {
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.para-font-service {
+    font-family: "Sulphur Point", sans-serif !important;
+    text-align: justify !important;
+    color: rgba(0, 0, 0, 0.801);
+}
+.service-ourstory{
+    font-size: 75px;
+    letter-spacing: 2px;
+    font-weight: 30px ;
+}

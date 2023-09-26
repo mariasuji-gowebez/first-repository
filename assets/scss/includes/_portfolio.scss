@@ -1,0 +1,53 @@
+.portfolio-background{
+    background-image: url("/public/images/Portfolio.jpg") !important;
+    background-repeat: no-repeat;  background-size: 100% 100% ;
+    position: center;
+    background-position: center center;
+}
+.item1 {
+    grid-column: 1 / span 2;
+    grid-row:1/span 3;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.123);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;  border: 2px solid green;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 2px solid green;
+  }
+  .item1{
+    background-image: url("/public/images/img_10.jpg") !important;
+    background-repeat: no-repeat;  background-size: 100% 100% ;
+    position: center;
+    background-position: center center;
+  }
+.custom-hover {
+  background-color: initial;
+  transition: background-color 0.3s ease;
+}
+
+.custom-hover:hover {
+  background-color: #f30065; 
+}
+.custom-all{
+  background-color: #f30065;
+}
+img.img-fluid3 {
+  width: 100%; 
+  height: auto;
+}
+
+
+@media (max-width: 700px) {
+  img.img-fluid3 {
+      width: 500px; 
+      max-width: 100%; 
+      height: auto;
+  }
+}
